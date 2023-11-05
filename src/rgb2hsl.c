@@ -21,7 +21,7 @@ int main(int argc, char * argv[])
     hsl = rgb2hsl(&rgb);
 
     printf(
-        "hsl(%i, %i%%, %i%%)",
+        "hsl(%i, %i, %i)",
         (int)round(hsl.hue),
         (int)((hsl.saturation) * 100),
         (int)((hsl.lightness) * 100)
